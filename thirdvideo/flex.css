@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 1px;
+  }
+  
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .flx-header {
+    padding: 10px;
+    background-color: blueviolet;
+  }
+  
+  .flx-main-container {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+  }
+  
+  .flx-article-section {
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .flx-nav {
+    background-color: lightseagreen;
+    padding: 10px;
+    flex: 1/2;
+  }
+  
+  .flx-aside {
+    background-color: red;
+    padding: 10px;
+    flex: 1/2;
+  }
+  
+  .flx-footer {
+    background-color: rgb(202, 202, 27);
+    padding: 10px;
+  }
+  
+  @media all and (mar-width: 500px) {
+    .flx-main-container {
+      flex-direction: column;
+    }
+    .flx-article-section {
+      flex: 1;
+    }
+    .flx-nav {
+      flex: 1;
+    }
+    .flx-aside {
+      flex: 1;
+    }
+  }
+  

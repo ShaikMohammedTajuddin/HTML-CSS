@@ -1,0 +1,29 @@
+.class1{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+    color:gold;
+    background-color: aqua;
+    margin-left:100px;
+    margin-right:200px;
+
+}
+.class2{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+    color:gold;
+    background-color: rgb(206, 214, 214);
+    margin-left:100px;
+    margin-right:200px;
+
+}
+#demo{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+    color:blueviolet
+    background-color:black;
+    margin-left:100px;
+    margin-right:200px;
+}

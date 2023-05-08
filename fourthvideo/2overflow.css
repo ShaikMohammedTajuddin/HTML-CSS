@@ -1,0 +1,36 @@
+.overflow-visible {
+    background-color: grey;
+    overflow: visible;
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  
+  .overflow-hidden {
+    background-color: grey;
+    overflow: hidden;
+    height: 150px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  
+  .overflow-scroll {
+    background-color: grey;
+    overflow: scroll;
+    height: 150px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  
+  .overflow-auto {
+    background-color: grey;
+    overflow: auto;
+    height: 300px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid blue;
+  }
+  

@@ -1,0 +1,45 @@
+body {
+    background: lightblue;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+  }
+  
+  .links-container a {
+    width: 10px;
+    background-color: yellow;
+    padding: 5px;
+    margin: 20px;
+  }
+  
+  .horizontal-menu {
+    display: inline-block;
+  }
+  
+  .verical-menu a {
+    display: flex; 
+  }
+  
+  .links-container a:link {
+    color: red;
+  }
+  
+  .links-container a:visited {
+    color: purple;
+  }
+  
+  .links-container a:hover {
+    color: brown;
+    background-color: aquamarine;
+  }
+  
+  .links-container a:active {
+    color: blue;
+    background-color: rgb(180, 188, 185);
+  }
+  
+  .link-active {
+    text-decoration: none;
+    color: rgb(70, 4, 4) important;
+    background-color: rgb(62, 87, 24) important;
+  }
+  
